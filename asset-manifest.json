@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Rave-to-the-Grave/static/css/main.cd564d0e.css",
+    "main.js": "/Rave-to-the-Grave/static/js/main.de5e01db.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Rave-to-the-Grave/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/home-page.png": "/Rave-to-the-Grave/static/media/home-page.49515f9c1d5519dd4380.png",
+    "static/media/Devil-Candle.otf": "/Rave-to-the-Grave/static/media/Devil-Candle.0c5ca7c4e2e05ea3a987.otf",
+    "index.html": "/Rave-to-the-Grave/index.html",
+    "main.cd564d0e.css.map": "/Rave-to-the-Grave/static/css/main.cd564d0e.css.map",
+    "main.de5e01db.js.map": "/Rave-to-the-Grave/static/js/main.de5e01db.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Rave-to-the-Grave/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd564d0e.css",
+    "static/js/main.de5e01db.js"
+  ]
+}
