@@ -4,7 +4,7 @@ import Checkout from "./components/Checkout/checkout"
 
 const AppRoutes = [
     {
-        path: "/",
+        path: "/Rave-to-the-Grave",
         component: <Home />,
     },
 
