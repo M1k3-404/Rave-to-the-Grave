@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./booking.css";
 import Form from "react-bootstrap/Form";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import CalculateTotal from "../../logic/calculateTotal";
+import CalculateTotal from "../../logic/calculateTotal.min.js";
 
 function Booking() {
     const [ticketCount, setTicketCount] = useState(0);
