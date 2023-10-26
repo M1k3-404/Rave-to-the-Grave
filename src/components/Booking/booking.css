@@ -22,7 +22,7 @@
 }
 
 .booking-form {
-    margin-top: 600px;
+    margin-top: 800px;
 }
 
 .fg {
@@ -64,6 +64,10 @@
         font-size: 14px !important;
         padding: 10px 60px !important;
     }
+
+    .form-text {
+        font-size: 12px !important;
+    }
 }
 
 .form-control {
@@ -79,6 +83,12 @@
 
 .form-control::placeholder {
     font-family: 'Poppins', sans-serif;
+    color: rgb(217, 217, 217) !important;
+}
+
+.form-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
     color: rgb(217, 217, 217) !important;
 }
 
