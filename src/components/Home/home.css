@@ -1,0 +1,71 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../media/home-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+}
+
+.bg-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title-text {
+    font-family: 'Devil Candle';
+    color: rgb(217, 217, 217);
+    font-weight: 900;
+    font-size: 120px;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+    .title-text {
+        font-size: 24px;
+    }
+
+    .title-sub-text {
+        font-size: 12px !important;
+    }
+
+    .book-btn {
+        font-size: 12px !important;
+        padding: 4px 20px !important;
+    }
+}
+
+.title-sub-text {
+    font-family: 'Devil Candle';
+    color: rgb(217, 217, 217);
+    font-weight: 900;
+    font-size: 96px;
+    letter-spacing: 5px;
+}
+
+.book-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(217, 217, 217);
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    padding: 20px 160px;
+    border-radius: 120px;
+    border: 1px solid rgb(217, 217, 217);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-icon-arrow {
+    size: 36;
+}
+
+.book-btn:hover {
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+}
