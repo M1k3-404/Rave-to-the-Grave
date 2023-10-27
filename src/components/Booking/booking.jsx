@@ -56,7 +56,7 @@ function Booking() {
                             <Form.Label>Enter the promo code</Form.Label>
                             <Form.Control id="formPromoCode" type="text" onChange={applyPromoCode} placeholder="Enter promo code" className="p-3 mt-2" />
                             <Form.Text>
-                                If you have a promo code enter here, else checkout <a href="https://www.instagram.com/flex.lk/">flex.lk</a> for promo codes.
+                                Don't have a promo code? checkout <a href="https://www.instagram.com/flex.lk/">flex.lk</a> for promo codes.
                             </Form.Text>
                         </Form.Group>
 
