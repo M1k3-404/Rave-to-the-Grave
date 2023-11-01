@@ -5,6 +5,10 @@ function CalculateTotal(ticketCount, promoCode) {
         ticketPrice = 1800;
     }
 
+    if (promoCode === 'R2KICSC' && ticketCount == 6) {
+        ticketPrice = 1500;
+    }
+
     const totalTicketPrice = ticketCount * ticketPrice;
 
     return totalTicketPrice;

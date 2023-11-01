@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./booking.css";
 import Form from "react-bootstrap/Form";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import CalculateTotal from "../../logic/calculateTotal.min.js";
+import CalculateTotal from "../../logic/calculateTotal.js";
 
 function Booking() {
     const [ticketCount, setTicketCount] = useState(0);
@@ -24,7 +24,6 @@ function Booking() {
     const applyPromoCode = (e) => {
         e.preventDefault();
         setPromoCode(e.target.value);
-        console.log(e.target.value);
     }
 
     useEffect(() => {
