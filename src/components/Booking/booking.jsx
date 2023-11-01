@@ -63,6 +63,8 @@ function Booking() {
 
                         <h4 className="text-center txt mt-4">Make the payment to the bank account below and attach the receipt in the next step.</h4>
                         <h5 className="text-center txt mt-4">Account Holder: T M P G S T Tennakoon<br />Account Number: 8150933609<br />Commercial bank - Kandy branch</h5>
+                        <h5 className="text-center txt mt-4 mb-0">Contact us for any clarifications.</h5>
+                        <h5 className="text-center txt mb-4">Muthula Alwis -<a href="tel:+94717428128">071 742 8128</a></h5>
                         <h5 className="text-center txt my-3">note: Please use your name as the reference. If you use any promo codes mention it in the google form as well. Add at least one ticket to proceed.</h5>
 
                         <h5 className="text-center txt mt-5">Total payable amount after applying the promotion is shown below</h5>
