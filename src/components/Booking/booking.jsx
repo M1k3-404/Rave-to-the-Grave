@@ -33,7 +33,7 @@ function Booking() {
     }, [ticketCount, promoCode]);
 
     useEffect(() => {
-        if (promoCode === 'R2IKCSC') {
+        if (promoCode === 'R2KICSC') {
             setPromoCodeInstructions('Ticket count should be 06 for the promo code to be valid.');
         } else if (promoCode === 'FLEXLK') {
             setPromoCodeInstructions('Ticket count should be 03 for the promo code to be valid.');
