@@ -8,6 +8,7 @@ function Booking() {
     const [ticketCount, setTicketCount] = useState(0);
     const [promoCode, setPromoCode] = useState('');
     const [totalTicketPrice, setTotalTicketPrice] = useState(0);
+    const [promoCodeInstructions, setPromoCodeInstructions] = useState('');
 
     const incrementTicketCount = (e) => {
         e.preventDefault();
@@ -30,6 +31,18 @@ function Booking() {
         const totalTicketPrice = CalculateTotal(ticketCount, promoCode);
         setTotalTicketPrice(totalTicketPrice);
     }, [ticketCount, promoCode]);
+
+    useEffect(() => {
+        if (promoCode === 'R2IKCSC') {
+            setPromoCodeInstructions('Ticket count should be 06 for the promo code to be valid.');
+        } else if (promoCode === 'FLEXLK') {
+            setPromoCodeInstructions('Ticket count should be 03 for the promo code to be valid.');
+        } else if (promoCode === 'R2G2022') {
+            setPromoCodeInstructions('Ticket count should be 03 or more for the promo code to be valid.');
+        } else {
+            setPromoCodeInstructions('');
+        }
+    }, [promoCode]);
 
     const openGoogleForm = (e) => {
         e.preventDefault();
@@ -57,6 +70,10 @@ function Booking() {
                             <Form.Text>
                                 Don't have a promo code? checkout <a href="https://www.instagram.com/flex.lk/">flex.lk</a> for promo codes.
                             </Form.Text>
+
+                            {promoCodeInstructions !== '' && 
+                                <h5 className="bg-dark-white p-3 my-5">{ promoCodeInstructions }</h5>
+                            }
                         </Form.Group>
 
                         <hr className="hr" />
