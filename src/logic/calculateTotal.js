@@ -1,16 +1,14 @@
 function CalculateTotal(ticketCount, promoCode) {
     var ticketPrice = 2000;
 
-    if (new Date() < new Date('2023-11-08T00:00:00Z')) {
-        ticketPrice -= 400;
-    }
-
     if (promoCode === 'R2KICSC' && ticketCount == 6) {
-        ticketPrice = 1300;
+        ticketPrice = 1700;
     } else if (promoCode === 'FLEXLK' && ticketCount >= 4) {
-        ticketPrice = 1400;
+        ticketPrice = 1600;
     } else if (promoCode === 'R2G2022' && ticketCount >= 3) {
-        ticketPrice = 1400;
+        ticketPrice = 1600;
+    } else if (promoCode === 'RACKR23') {
+        ticketPrice = 1600;
     }
 
     const totalTicketPrice = ticketCount * ticketPrice;
