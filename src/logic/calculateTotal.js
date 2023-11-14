@@ -11,7 +11,7 @@ function CalculateTotal(ticketCount, promoCode) {
         ticketPrice = 1600;
     } else if (promoCode === 'RTRATR2G' && ticketCount >= 4) {
         ticketPrice = 1600;
-    } else if (promoCode === 'SGPBFLEX' && ticketCount >= 4) {
+    } else if (promoCode === 'R2GFLEX' && ticketCount >= 4) {
         ticketPrice = 1600;
     }
 
