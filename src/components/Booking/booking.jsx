@@ -36,12 +36,12 @@ function Booking() {
         if (promoCode === 'R2KICSC') {
             setPromoCodeInstructions('Ticket count should be 06 for the promo code to be valid.');
         } else if (promoCode === 'FLEXLK') {
-            setPromoCodeInstructions('Ticket count should be 03 or more for the promo code to be valid.');
+            setPromoCodeInstructions('Ticket count should be 02 or more for the promo code to be valid.');
         } else if (promoCode === 'R2G2022') {
             setPromoCodeInstructions('Ticket count should be 03 or more for the promo code to be valid.');
         } else if (promoCode === 'RTRATR2G') {
             setPromoCodeInstructions('Ticket count should be 04 or more for the promo code to be valid.');
-        } else if (promoCode === 'SGPBFLEX') {
+        } else if (promoCode === 'R2GFLEX') {
             setPromoCodeInstructions('Ticket count should be 04 or more for the promo code to be valid.');
         } else {
             setPromoCodeInstructions('');
